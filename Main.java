@@ -7,10 +7,10 @@ import java.util.*;
 class Main {
 
     public static void main(String [] args) throws IOException {
-	
+       
 	BitInputStream input= new BitInputStream(
-						 new FileInputStream("compress.bmp"));
-	File f = new File("compress.bmp");
+						 new FileInputStream(args[0]));
+	File f = new File(args[0]);
 
 	ArrayList<Color> c =input.lireImage(f);
 	

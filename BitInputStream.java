@@ -70,7 +70,7 @@ public class BitInputStream extends FilterInputStream {
 		c4 =new Color( image.getRGB(i+1, j+1));
 		//System.out.println(c1+" "+c2+" "+c3+" "+c4);
 		Color medium = medium (c1, c2, c3, c4);
-		System.out.println("On a à la position" +i+" / "+j+" **** "+medium);
+		//System.out.println("On a à la position" +i+" / "+j+" **** "+medium);
 		list.add(medium);
 		
 	    }
